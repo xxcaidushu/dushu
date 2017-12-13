@@ -1,0 +1,64 @@
+@charset "utf-8";
+.fl{float: left;}
+.fr{float: right;}
+/*banner部分*/
+.comwidth{width:960px;margin-left:auto;margin-right:auto; }
+.bannertop{height: 87px;background: url("bg.jpg") left center repeat-x; }
+.leftarea{float: left;}
+.rightarea{float: right}
+h3{font-size: 28px;font-family: "Microsoft YaHei", " 微软雅黑";color: white;line-height: 44px;margin-top: 0px;}
+.rightarea a{color: white;text-decoration: none;font-size: 12px;padding-left: 28px;}
+.rightarea{padding-top: 60px;}
+.navbox{height: 44px;background-color: #f7f7f7;border: 1px solid #c0c0c0;}
+.navbox a{line-height: 44px;font-size: 14px;padding-right: 38px;font-weight: bold;}
+/*bannershow部分*/
+.imgbox{margin-top: 17px;}
+.navsm{height: 23px;background-color: #eeeeee;border-radius: 11px;margin-top: 0px;}
+.navlogo{display: inline-block;background: url("tongzhi.jpg") 15px center no-repeat;padding-left: 31px;line-height: 23px;}
+/*searchbox部分*/
+.search_left{width: 483px;height: 186px;border: 1px solid #d5d5d5;margin-top: 19px;box-shadow:0px 2px 15px #333333;float: left;position: relative;z-index: 1;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);  }
+.searchbox h3{color: white;width: 220px;height: 37px;background-color: #f4990c;display:block;text-align: center;line-height: 37px;font-size: 18px;font-family: "Microsoft YaHei", " 微软雅黑";margin: 7px;float: left;}
+.more{margin-left: 193px;margin-top: 13px;font-size: 12px;float: left;}
+.search_text{margin-top: 15px;margin-left: 23px;}
+.wentifankui{line-height: 26px;border-bottom: dashed 1px #cfcfcf;}
+.logincont{width: 450px;height: 186px;border: 1px solid #d5d5d5;margin-top:19px;float: right;box-shadow:2px 2px 5px #333333;z-index: 5;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg)}
+.h3_login{height:34px;width: 128px; }
+.login{padding-left: 68px;padding-top: 16px;}
+.logincont h3{height: 34px;width: 128px;background-color: #0a3a8e;display:block;text-align: center;line-height: 34px;font-family: "Microsoft YaHei", " 微软雅黑";font-size:18px;margin: 7px;color: white;}
+.login_input{width: 140px;height: 18px;border: 1px solid #999999;line-height: 18px\9;text-indent: 5px;}
+.login-banner_btn{width: 58px;height: 22px;background-color: #d9e1ec;margin-right: 15px;border:1px solid #c4c4c4;margin-top: 24px; }
+.l_title{margin-top: 15px;}
+.user_icon{background: url("user.jpg") right center no-repeat;}
+.suo_icon{background: url("suo.jpg")right center no-repeat;}
+
+
+
+
+.h_24{height: 24px;}
+.link{margin-top: 24px;}
+.link_box{margin-top:235px;width: 960px;height: 45px;}
+.link_box a{display: block;float: left;}
+/*foot部分*/
+.foot{text-align: center;height: 71px;background-color: #0051a2;line-height: 24px;padding-top: 13px;margin-top: 24px;}
+.foot {color: white;}
+/*登录页*/
+.imgboxclass{width: 962px;height: 111px;border-radius: 8px;border: 1px solid #cccacb;margin-top: 19px;overflow: hidden;margin-bottom: 19px;}
+.logincontsm{width: 312px;height: 167px;border: 1px solid #d5d5d5;float: left;}
+.h3_loginsm{height: 35px;width: 130px;background-color: #0a3a8e;display:block;text-align: center;line-height: 35px;margin: 7px;color: white;}
+.h3_loginsm h3{font-family: "Microsoft YaHei", " 微软雅黑";font-size: 18px;}
+.loginsm{padding-left: 46px;}
+
+
+.jingpinjiaocai{width: 630px;height: 452px;border: 1px solid #d5d5d5;margin-top:0px;float: right;}
+.jingpinjiaocaitop{width: 630px;height: 40px;background-color: #083a91;}
+.rightarea2{float: right;}
+.rightarea2 a{color: white;font-size: 14px;font-family: "Microsoft YaHei", " 微软雅黑";line-height: 40px;padding-right: 8px;}
+.jingpinkechengtext_class{padding: 21px;line-height: 32px;}
+.jinginjiaocaibt a{width: 26px;height: 20px;display: inline-block;border: 1px solid #265684;text-align: center;line-height: 20px;margin-right: 4px;}
+.jinginjiaocaibt{margin-left: 286px;margin-top: 42px;}
+.jingpinkechengtext_class .active a{color: #265684;}
+.jinginjiaocaibt .active{background-color: #265684;color: white;}

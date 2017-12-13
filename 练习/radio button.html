@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>单选按钮</title>
+    <link type="text/css"rel="stylesheet" href="reset.css">
+    <style type="text/css">
+        body{font:12px/22px "微软雅黑";}
+        a{text-decoration:none;color:#000;}
+
+        #type{width:400px;border:1px solid #DFDFDF;margin:30px auto 0;}
+        .type dl{height:32px;line-height:32px;padding-left:15px;}
+        .type dl dt{float:left;}
+        .type dl dd{float:left;margin:0 10px 0 8px;position:relative;padding-left:23px;}
+        .type dl dd a{display:block;}
+        .type dl dd a:hover{color:#CC0000;text-decoration:underline;}
+        .type dl dd b{width:20px;height:20px;background:url(../images/radiobutton.gif) no-repeat -15px -18px;display:block;position:absolute;left:0;top:6px;}
+        .type dl dd a:hover b{background-position:-15px -118px;}
+        .type dl .selected b,.type dl .selected a:hover b{background-position:-15px -218px;}
+    </style>
+</head>
+<body>
+<div class="type">
+    <dl id="type">
+        <dt>配送类型：</dt>
+        <dd onclick="show(0)" class="selected"><a href="#"><b></b>全部</a></dd>
+        <dd><a href="#" onclick="show(1)"><b></b>京东配送</a></dd>
+        <dd><a href="#" onclick="show(2)"><b></b>第三方配送</a></dd>
+    </dl>
+</div>
+
+
+</body>
+</html>

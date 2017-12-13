@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/images/dot.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/img1.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/img2.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/img3.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/img4.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/img5.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/loading.gif" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/next.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/prev.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap-theme.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap-theme.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/bootstrap.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/练习/npm.js" charset="UTF-8" />
+  </component>
+</project>

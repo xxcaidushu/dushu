@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jquery支付宝官网首页左右全屏banner焦点图</title>
+    <link href="banner-autoplay.css" type="text/css" rel="stylesheet">
+</head>
+<body style="">
+
+<!-- 代码begin -->
+<div class="flexslider">
+    <ul class="slides">
+        <li style="background-image: url(../images/img1.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"
+            class=""></li>
+        <li style="background-image: url(../images/img2.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"
+            class="flex-active-slide"></li>
+        <li style="background-image: url(../images/img3.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+        <li style="background-image: url(../images/img4.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+        <li style="background-image: url(../images/img5.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+    </ul>
+    <ul class="flex-direction-nav">
+        <li><a class="flex-prev" href="#"></a></li>
+        <li><a class="flex-next" href="#"></a></li>
+    </ul>
+</div>
+<!-- 代码end -->
+<!-- js调用部分begin -->
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script src="../js/jquery.flexslider-min.js"></script>
+<script>
+    $(function () {
+        $('.flexslider').flexslider({
+            directionNav: true,
+            pauseOnAction: false
+        });
+    });
+</script>
+<!-- js调用部分end -->
+
+</body>
+</html>
